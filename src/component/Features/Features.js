@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import Card from "../Features/Card";
+import data from "../Features/FeaturesAPI"
 export default function Features() {
   return (
     <Wrapper>
@@ -9,21 +11,10 @@ export default function Features() {
             <h1>what I do</h1>
           </div>
           <div className="content grid">
-            <div className="box btn_shadow">
-              <img src="" alt="" />
-              <h2>Title</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur qui ea nobis odio aperiam autem, reiciendis earum
-                repudiandae sit similique ratione unde rem illum impedit. Ex
-                fugiat itaque temporibus nesciunt.
-              </p>
-
-              <a href="">
-                {" "}
-                <i className="fas fa-arrow-right"></i>
-              </a>
-            </div>
+            {data.map((val,index)=>{
+                return  <Card key={index} image={val.image} title = {val.title} desc = {val.desc} />
+            })}
+        
           </div>
         </div>
       </section>
@@ -31,18 +22,27 @@ export default function Features() {
   );
 }
 const Wrapper = styled.div`
-  .features .box {
-    padding: 50px;
-  }
-  .features .box h2 {
-    margin: 20px 0 20px 0;
-  }
-  .features .box p {
-    word-spacing: 2px;
-    transition: 0.5s;
-  }
-  .features .box i {
-   font-size:30px;
-   margin-top :20px;
-  }
+ .features .box {
+  padding: 50px;
+}
+.features .box h2 {
+  margin: 20px 0 20px 0;
+}
+.features .box p {
+  word-spacing: 2px;
+  transition: 0.5s;
+}
+.features .box i {
+  font-size: 30px;
+  margin-top: 20px;
+  transition: 0.5s;
+  opacity: 0;
+}
+.features .box:hover p {
+  color: white;
+}
+.features .box:hover i {
+  color: white;
+  opacity: 1;
+}
 `;

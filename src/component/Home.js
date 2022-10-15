@@ -15,13 +15,13 @@ export default function Home() {
               Salut je suis <span>Michel</span>
             </h1>
             <h2>
-              un{" "}
+              {" "}
               <span>
                 <Typewriter
-                  words={["Codeur pro", "dévellopeur full-stack"]}
+                  words={["Dévellopeur mobile ", "dévellopeur full-stack"]}
                   loop={5}
                   cursor
-                  cursorStyle="\"
+                  cursorStyle="|"
                   typeSpeed={70}
                   deleteSpeed={50}
                   delaySpeed={1000}
