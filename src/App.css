@@ -95,5 +95,43 @@ h1{
 .text-center{
   text-align: center;
 }
+.primary_color {
+  color: #ff014f;
+}
+textarea,
+input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 3px solid #e2e8ec;
+  margin-bottom: 20px;
+}
+/*----------Footer---------*/
+footer {
+  margin: 20% 0 10% 0;
+}
+footer p {
+  margin-top: 30px;
+}
+/*----------Footer---------*/
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+}
 
+@media (max-width: 557px) {
+  .grid {
+    grid-template-columns: repeat(1, 1.5fr);
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+}
 

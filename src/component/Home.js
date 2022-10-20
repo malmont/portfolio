@@ -149,5 +149,29 @@ const Wrapper = styled.div`
     width:510px;
     border-radius:10px;
   }
+  @media (max-width: 768px) {
+  .hero .right,
+  .hero .left {
+    width: 100%;
+    margin-left: 20px;
+ 
+  }
+
+  .hero .f_flex {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .hero .right_img {
+    width: 100%;
+    height: 54vh;
+  }
+  .hero h2 {
+    font-size: 30px;
+  }
+  .hero h1 {
+    font-size: 36px;
+
+  }
+}
 
 `;

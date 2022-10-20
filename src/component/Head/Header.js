@@ -156,8 +156,5 @@ header ul li a:hover {
   .header.active {
     height: 10vh;
   }
-  .demo{
-    height:200vh;
-  }
 }
 `;

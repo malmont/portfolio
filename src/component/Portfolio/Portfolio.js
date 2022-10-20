@@ -177,7 +177,7 @@ body.active-modal {
     margin: 50px 0 50px 0;
   }
   .modal-content {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .modal .right,
   .modal .left {
