@@ -6,14 +6,27 @@ export default function Card(props) {
         <img src={props.image} alt="" />
         <h2>{props.title}</h2>
         <p>
-         {props.desc}
+        <span>COMPETENCES :</span>  
+        <br />
+        {props.desc}
         </p>
+        <p>
+        <span>OUTILS :</span>  
+        <br />
+        {props.outils}
+        </p>
+        
 
-        <a href="">
+        <a href="#">
           <i className="fas fa-arrow-right"></i>
         </a>
       </div>
     </Wrapper>
   );
 }
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+span{
+  color:blueviolet;
+}
+
+`;

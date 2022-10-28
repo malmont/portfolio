@@ -7,53 +7,79 @@ export default function Card(props) {
   };
   return (
     <Wrapper>
-      <div className='box btn_shadow '>
-        <div className='img'>
-          <img src={props.image} alt='' onClick={toogleModal} />
+      <div className="box btn_shadow ">
+        <div className="img">
+          <img src={props.image} alt="" />
         </div>
-        <div className='category d_flex'>
-          <span onClick={toogleModal}>{props.category}</span>
-          <label>
-            <i className='far fa-heart'></i> {props.totalLike}
-          </label>
-        </div>
-        <div className='title'>
-          <h2 onClick={toogleModal}>{props.title}</h2>
-          <a href='#popup' className='arrow' onClick={toogleModal}>
-            <i class='fas fa-arrow-right'></i>
-          </a>
-        </div>
-      </div>
+        <div className="d_flex">
+          <div>
+            
+            <span className="titreDesc">{props.category}</span>
+            <button className="btn_shadow typeApp ">
+            <i className="fab fa-facebook-f"></i>
+            </button>
+          </div>
 
-      {/* Popup box */}
-      {modal && (
-        <div className='modal'>
-          <div onClick={toogleModal} className='overlay'></div>
-          <div className='modal-content d_flex'>
-            <div className='modal-img left'>
-              <img src={props.image} alt='' />
-            </div>
-            <div className='modal-text right'>
-              <span>Featured - Design</span>
-              <h1>{props.title}</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-              <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
-              <div className='button f_flex mtop'>
-                <button className='btn_shadow'>
-                  LIKE THIS <i class='far fa-thumbs-up'></i>
-                </button>
-                <button className='btn_shadow'>
-                  VIEW PROJECT<i class='fas fa-chevron-right'></i>
-                </button>
-              </div>
-              <button className='close-modal btn_shadow' onClick={toogleModal}>
-                <i class='fas fa-times'></i>
-              </button>
-            </div>
+          <div>
+            <button className="btn_shadow typeApp ">
+              <i class="fas fa-mobile  "></i>
+            </button>
+            <span>{props.description}</span>
           </div>
         </div>
-      )}
+
+        <div className="center">
+          <div className="title">
+            <h2 onClick={toogleModal}>{props.title}</h2>
+            <a href="#popup" className="arrow">
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div className="prop">
+          <div className="techno ">
+            <h3>Technologie : </h3>
+            {props.commentaire}
+          </div>
+          <div className="button ">
+            <button className="btn_shadow ">
+              Ghitub <i class="far fa-thumbs-up"></i>
+            </button>
+            <a href="https://easymakemoney.fr/">
+              <button href="https://easymakemoney.fr/" className="btn_shadow">
+                Voir projet
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
     </Wrapper>
   );
 }
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  button {
+    margin: 10px;
+  }
+  span {
+    color: blueviolet;
+  }
+  .typeApp {
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  .techno {
+    margin: -10px 10px 10px 0px;
+  }
+  .center {
+    text-align: center;
+  }
+  .prop {
+    margin-left: 10px;
+  }
+  .titreDesc {
+    margin-top: 16px;
+  }
+`;

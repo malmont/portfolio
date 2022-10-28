@@ -29,10 +29,11 @@ export default function Home() {
               </span>
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores adipisci autem quas ipsam, tempore numquam provident
-              porro! Ducimus, nobis amet? Autem illum assumenda omnis delectus
-              maxime explicabo aspernatur reiciendis numquam!
+      Fort de mon expérience dans le domaine depuis 15 ans en tant SysAdmin, j'ai entamé depuis 3 ans une
+       reconversion dans le domaine du développement d'application web et mobile.
+       Cette aventure à commencé  gràce un concours de circonstance lié à plusieurs problématiques que je rencontrait 
+      lors de mon précédent travail.
+      J'ai eu la révélation lors de la réalisation de ma premiere application que la programmation était devenue une vrai passion.
             </p>
             <div className="hero_btn  d_flex">
               <div className="col_1">

@@ -8,11 +8,11 @@ export default function Features() {
         <div className="container">
           <div className="heading">
             <h4>Features</h4>
-            <h1>what I do</h1>
+            <h1>Domaines de compétencess</h1>
           </div>
           <div className="content grid">
             {data.map((val,index)=>{
-                return  <Card key={index} image={val.image} title = {val.title} desc = {val.desc} />
+                return  <Card key={index} image={val.image} title = {val.title} desc = {val.desc} outils={val.outils}/>
             })}
         
           </div>

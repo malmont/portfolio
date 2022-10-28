@@ -1,10 +1,25 @@
 import styled from "styled-components";
+import React, { useState } from "react";
 import Card from "../Portfolio/Card";
 import Portfolio_data from "../Portfolio/Portfolio_data";
+import Portfolio_data1 from "../Portfolio/Portfolio_data1";
+import Portfolio_data2 from "../Portfolio/Portfolio_data2";
+import Portfolio_data3 from "../Portfolio/Portfolio_data3";
+
+
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+
 export default function Portfolio() {
+  const [modal, setModal] = useState(false);
+  const toogleModal = () => {
+    setModal(!modal);
+  };
   return (
     <Wrapper>
-      <section className="portfolio top">
+      <Carousel   useKeyboardArrows  showArrows={false} showThumbs={false}>
+      <section  className="portfolio top">
         <div className="container">
           <div className="heading text-center">
             <h4>VISITEZ MON PORTFOLIO</h4>
@@ -18,6 +33,8 @@ export default function Portfolio() {
                     category={value.category}
                     totalLike={value.totalLike}
                     title={value.title}
+                    description ={value.description}
+                    commentaire = {value.commentaire}
                   />
                 );
               })}
@@ -25,6 +42,77 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+        <section className="portfolio top">
+        <div className="container">
+          <div className="heading text-center">
+            <h4>VISITEZ MON PORTFOLIO</h4>
+            <h1>Mon portfolio</h1>
+            <div className="content grid">
+              {Portfolio_data1.map((value, index) => {
+                return (
+                  <Card
+                    key={index}
+                    image={value.image}
+                    category={value.category}
+                    totalLike={value.totalLike}
+                    title={value.title}
+                    description ={value.description}
+                    commentaire = {value.commentaire}
+                  />
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="portfolio top">
+        <div className="container">
+          <div className="heading text-center">
+            <h4>VISITEZ MON PORTFOLIO</h4>
+            <h1>Mon portfolio</h1>
+            <div className="content grid">
+              {Portfolio_data2.map((value, index) => {
+                return (
+                  <Card
+                    key={index}
+                    image={value.image}
+                    category={value.category}
+                    totalLike={value.totalLike}
+                    title={value.title}
+                    description ={value.description}
+                    commentaire = {value.commentaire}
+                  />
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="portfolio top">
+        <div className="container">
+          <div className="heading text-center">
+            <h4>VISITEZ MON PORTFOLIO</h4>
+            <h1>Mon portfolio</h1>
+            <div className="content grid">
+              {Portfolio_data3.map((value, index) => {
+                return (
+                  <Card
+                    key={index}
+                    image={value.image}
+                    category={value.category}
+                    totalLike={value.totalLike}
+                    title={value.title}
+                    description ={value.description}
+                    commentaire = {value.commentaire}
+                  />
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      </Carousel>
     </Wrapper>
   );
 }
@@ -33,6 +121,7 @@ const Wrapper = styled.div`
     position: relative;
   }
   .portfolio .box {
+    
     position: relative;
   }
   .portfolio .box:hover {
@@ -69,6 +158,7 @@ const Wrapper = styled.div`
     opacity: 0;
     transition: 0.5s;
   }
+
 
   .portfolio .title:hover .arrow {
     opacity: 1;

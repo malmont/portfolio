@@ -8,8 +8,8 @@ export default function Resume() {
          <section className='Resume' id='resume'>
         <div className='container top'>
           <div className='heading text-center'>
-            <h4>7+ YEARS OF EXPERIENCE</h4>
-            <h1>My Resume</h1>
+            <h4>15 années d'expérience IT</h4>
+            <h1>Résumé</h1>
           </div>
 
           <div className='content-section mtop d_flex'>
