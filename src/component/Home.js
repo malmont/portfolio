@@ -4,10 +4,43 @@ import hero from ".//pic/hero.png";
 import react from ".//pic/react.png";
 import flutter from ".//pic/flutter.png";
 import symfony from ".//pic/symfony.png";
+import { useSpring,animated } from 'react-spring';
+
 export default function Home() {
+  
+  const animation = useSpring({
+   
+    from:{
+      opacity:0,
+      x:700
+    },
+    to:{
+     opacity:1,
+     x:300
+    },
+    delay: 300,
+    
+    config: { duration:800  }
+  })
+
+  const animation1 = useSpring({
+   
+    from:{
+      opacity:0,
+      x:500
+    },
+    to:{
+     opacity:1,
+     x:0
+    },
+    delay: 300,
+    
+  })
   return (
     <Wrapper>
+         
       <section className="hero" id="home">
+
         <div className="container f_flex top">
           <div className="left top">
             <h3>Welcome to my word</h3>
@@ -36,6 +69,7 @@ export default function Home() {
       J'ai eu la révélation lors de la réalisation de ma premiere application que la programmation était devenue une vrai passion.
             </p>
             <div className="hero_btn  d_flex">
+            <animated.div style={animation1}>
               <div className="col_1">
                 <h4>Find me</h4>
                 <div className="button">
@@ -50,7 +84,8 @@ export default function Home() {
                   </button>
                 </div>
               </div>
-
+              </animated.div>
+              <animated.div style={animation1}>
               <div className="col_1">
                 <h4> Compétence</h4>
 
@@ -64,15 +99,21 @@ export default function Home() {
                   <img src={symfony} alt="" />
                 </button>
               </div>
+              </animated.div>
             </div>
           </div>
+       
+          <animated.div style={animation}>
           <div className="right">
             <div className="right_img">
               <img src={hero} alt="" />
             </div>
           </div>
+          </animated.div>
         </div>
+        
       </section>
+   
     </Wrapper>
   );
 }
@@ -89,12 +130,12 @@ const Wrapper = styled.div`
     font-weight: bold;
   }
   .hero h1 span {
-    color: #ff014f;
+    color: #04989e;
   }
   .hero h2 {
     font-size: 50px;
     font-weight: bold;
-    color: #ff014f;
+    color: #04989e;
   }
   .hero h2 span {
     color: black;

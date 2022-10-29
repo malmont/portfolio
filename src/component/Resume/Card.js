@@ -8,11 +8,7 @@ export default function Card(props) {
                 <h2>{props.title}</h2>
                 <span>{props.year}</span>
             </div>
-            <div className="rate">
-                <button className="btn_shadow">
-                    {props.rate}
-                </button>
-            </div>
+           
         </div>
         <p>{props.desc}</p>
         </div>  
@@ -20,6 +16,8 @@ export default function Card(props) {
   )
 }
 const Wrapper=styled.div `
-
+button{
+  color:#04989e;
+}
 
 `;

@@ -1,18 +1,27 @@
 import styled from "styled-components";
 import Card from "../Features/Card";
-import data from "../Features/FeaturesAPI"
+import data from "../Features/FeaturesAPI";
+
+
+
 export default function Features() {
+
+  
   return (
     <Wrapper>
       <section className="features top" id="features">
         <div className="container">
           <div className="heading">
             <h4>Features</h4>
-            <h1>Domaines de compétencess</h1>
+            <h1>Domaines de compétences</h1>
           </div>
           <div className="content grid">
+
+            
             {data.map((val,index)=>{
+         
                 return  <Card key={index} image={val.image} title = {val.title} desc = {val.desc} outils={val.outils}/>
+           
             })}
         
           </div>
@@ -22,6 +31,7 @@ export default function Features() {
   );
 }
 const Wrapper = styled.div`
+
  .features .box {
   padding: 50px;
 }

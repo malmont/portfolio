@@ -64,7 +64,7 @@ const Wrapper = styled.div`
   background-color: #e3e9ed;
 }
 .Resume .rate .btn_shadow {
-  color: #ff014f;
+  color: #04989e;
   padding: 15px 30px;
   font-weight: bold;
   transition: 0.5s;
@@ -77,11 +77,15 @@ const Wrapper = styled.div`
   margin-bottom: 40px;
   position: relative;
 }
+.Resume .btn_shadow{
+
+}
 .Resume .btn_shadow:hover {
   transform: translate(0);
 }
+
 .Resume .box:hover .btn_shadow {
-  background: #ff3a75;
+  background: #2a2a2e;
   box-shadow: none;
   color: white;
 }
@@ -101,7 +105,7 @@ const Wrapper = styled.div`
   left: 0;
   height: 118vh;
   width: 5px;
-  background: #d9dee2;
+  background: #04989e;
   z-index: -2;
 }
 .Resume .box::after {
@@ -111,7 +115,7 @@ const Wrapper = styled.div`
   left: -8%;
   height: 5px;
   width: 50px;
-  background: #d9dee2;
+  background: #04989e;
 }
 .Resume .box::before {
   content: "";
@@ -121,13 +125,13 @@ const Wrapper = styled.div`
   height: 10px;
   width: 10px;
   background: #fff;
-  border: 5px solid #d9dee2;
+  border: 5px solid #2a2a2e;
   border-radius: 50%;
   z-index: 5;
   transition: 0.5s;
 }
 .Resume .box:hover.box:before {
-  background: #ff3a75;
+  background: #04989e;
 }
 @media (max-width: 768px) {
   .Resume .d_flex {

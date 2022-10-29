@@ -41,9 +41,7 @@ export default function Header() {
               <li>
                 <a href='#contact'>contact</a>
               </li>
-              <li>
-                <button className='home-btn'>BUY NOW</button>
-              </li>
+           
             </ul>
 
             <button className='toggle' onClick={() => setMobile(!Mobile)}>
@@ -60,21 +58,25 @@ const Wrapper = styled.div`
 header {
   height: 10vh;
   line-height: 10vh;
+  background-color:#2a2a2e;
 }
 header .container {
+
   padding-top: 15px;
 }
 header ul li {
+  
   margin-left: 30px;
 }
 header ul li a {
+  color:white;
   transition: 0.5s;
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 1px;
 }
 header ul li a:hover {
-  color: #ff014f;
+  color: #04989e;
 }
 .home-btn {
   padding: 18px 25px;
@@ -82,14 +84,14 @@ header ul li a:hover {
   transition: 0.3s all ease;
   cursor: pointer;
   height: fit-content;
-  color: #ff014f;
+  color: #04989e;
 }
 .home-btn {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 .home-btn:hover {
-  background: #ff014f;
+  background: #04989e;
   color: white;
 }
 .open {
@@ -101,7 +103,7 @@ header ul li a:hover {
   top: 0;
   z-index: 1000;
   width: 100%;
-  background-color: #ecf0f3;
+  background-color: #2a2a2e;
   box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
   transition: 0.5s;
 }
@@ -136,7 +138,7 @@ header ul li a:hover {
     position: absolute;
     top: 35px;
     right: 20px;
-    color: #ff014f;
+    color: #04989e;
     display: block;
     font-size: 25px;
     z-index: 999;
@@ -146,7 +148,7 @@ header ul li a:hover {
   }
   .close.home-btn {
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    color: #ff014f;
+    color: #04989e;
     border-radius: 50%;
     padding: 0;
     width: 60px;

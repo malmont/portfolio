@@ -12,10 +12,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 export default function Portfolio() {
-  const [modal, setModal] = useState(false);
-  const toogleModal = () => {
-    setModal(!modal);
-  };
+
   return (
     <Wrapper>
       <Carousel   useKeyboardArrows  showArrows={false} showThumbs={false}>
@@ -35,6 +32,8 @@ export default function Portfolio() {
                     title={value.title}
                     description ={value.description}
                     commentaire = {value.commentaire}
+                    adresseGithub= {value.adresseGithub}
+                    adresseWeb = {value.adresseWeb}
                   />
                 );
               })}
@@ -144,7 +143,7 @@ const Wrapper = styled.div`
   }
 
   .portfolio .category span {
-    color: #ff014f;
+    color: #04989e;
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 500;
@@ -154,7 +153,7 @@ const Wrapper = styled.div`
     right: 30px;
     bottom: 11%;
     transform: rotate(-45deg);
-    color: #ff014f;
+    color: #04989e;
     opacity: 0;
     transition: 0.5s;
   }
@@ -170,7 +169,7 @@ const Wrapper = styled.div`
   }
 
   .portfolio .box:hover h2{
-    color: #ff014f;
+    color: #04989e;
   }
   .portfolio .box:hover{
     color:black;
@@ -236,7 +235,7 @@ body.active-modal {
 }
 .modal-text button {
   margin-right: 20px;
-  color: #ff014f;
+  color: #04989e;
 }
 .modal-text button i {
   margin-left: 10px;

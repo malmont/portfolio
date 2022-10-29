@@ -15,18 +15,38 @@ export default function Card(props) {
         <br />
         {props.outils}
         </p>
-        
-
-        <a href="#">
-          <i className="fas fa-arrow-right"></i>
-        </a>
       </div>
     </Wrapper>
   );
 }
 const Wrapper = styled.div`
+img{
+  width:50px;
+}
 span{
   color:blueviolet;
 }
-
+div{
+  height:400px;
+}
+@media (max-width: 1210px) {
+  div{
+  height:450px;
+}
+}
+@media (max-width: 1210px) {
+  div{
+  height:400px;
+}
+}
+@media (max-width: 820px) {
+  div{
+  height:450px;
+}
+}
+@media (max-width: 691px) {
+  div{
+  height:400px;
+}
+}
 `;

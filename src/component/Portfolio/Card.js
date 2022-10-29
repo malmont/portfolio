@@ -1,23 +1,31 @@
 import styled from "styled-components";
 import React, { useState } from "react";
+import { useSpring,animated } from 'react-spring';
+
 export default function Card(props) {
+  const animation = useSpring({
+    opacity:true ? 1:0,
+    transform: true ? "translateX(0)" : "translateX(-50%)"
+  })
   const [modal, setModal] = useState(false);
   const toogleModal = () => {
     setModal(!modal);
   };
   return (
     <Wrapper>
-      <div className="box btn_shadow ">
+      <div className="box btn_shadow cardPortfolio">
+      
         <div className="img">
           <img src={props.image} alt="" />
         </div>
         <div className="d_flex">
           <div>
             
-            <span className="titreDesc">{props.category}</span>
+
             <button className="btn_shadow typeApp ">
             <i className="fab fa-facebook-f"></i>
             </button>
+            <span className="titreDesc">{props.category}</span>
           </div>
 
           <div>
@@ -43,11 +51,14 @@ export default function Card(props) {
             {props.commentaire}
           </div>
           <div className="button ">
+            <a href={props.adresseGithub}>
             <button className="btn_shadow ">
               Ghitub <i class="far fa-thumbs-up"></i>
             </button>
-            <a href="https://easymakemoney.fr/">
-              <button href="https://easymakemoney.fr/" className="btn_shadow">
+            </a>
+       
+            <a href={props.adresseWeb}>
+              <button  className="btn_shadow">
                 Voir projet
                 <i class="fas fa-chevron-right"></i>
               </button>
@@ -82,4 +93,12 @@ const Wrapper = styled.div`
   .titreDesc {
     margin-top: 16px;
   }
+.cardPortfolio{
+  height:600px;
+}
+  @media (max-width: 1210px) {
+    .cardPortfolio{
+  height:620px;
+}
+}
 `;

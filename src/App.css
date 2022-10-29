@@ -51,11 +51,11 @@ button {
   transition: 0.5s;
 }
 .btn_shadow {
-  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  background: linear-gradient(145deg, #a6a6a6, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 .btn_shadow:hover {
-  background: #ff014f;
+  background: #04989e;
   color: white;
   transform: translateY(-10px);
 }
@@ -73,7 +73,7 @@ button {
   margin : 50px 0px 50px 0px;
 }
 .heading h4{
-  color: #ff014f;
+  color: #04989e;
   letter-spacing: 2px;
   font-weight: 400;
 }
@@ -95,8 +95,11 @@ h1{
 .text-center{
   text-align: left;
 }
+.text-center-header{
+  text-align: center;
+}
 .primary_color {
-  color: #ff014f;
+  color: #04989e;
 }
 textarea,
 input {
@@ -104,18 +107,18 @@ input {
   padding: 20px;
   border-radius: 5px;
   outline: none;
-  border: 3px solid #e2e8ec;
+  border: 3px solid #a6a6a6;
   margin-bottom: 20px;
 }
 /*----------Footer---------*/
 footer {
-  margin: 20% 0 10% 0;
+  margin-bottom: 20px;
 }
 footer p {
   margin-top: 30px;
 }
 /*----------Footer---------*/
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -125,7 +128,7 @@ footer p {
   }
 }
 
-@media (max-width: 557px) {
+@media (max-width: 700px) {
   .grid {
     grid-template-columns: repeat(1, 1.5fr);
   }

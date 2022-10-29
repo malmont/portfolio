@@ -7,11 +7,11 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className='conatiner text-center top'>
+        <div className='container text-center-header top'>
           <div className='img'>
             <img src={logo1} alt='' />
           </div>
-          <p>© 2021. All rights reserved by GorkCoder-Themes.</p>
+          <p>© 2022. React js Michel Almont</p>
         </div>
       </footer>
     </>
