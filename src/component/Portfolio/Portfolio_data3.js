@@ -9,7 +9,7 @@ const Portfolio_data1 = [
       description: "Web",
       commentaire: "Wordpress",
       adresseGithub : "",
-      adresseWeb: ""
+      adresseWeb: "https://easy-dream.000webhostapp.com/"
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ const Portfolio_data1 = [
       image: "./image/charle-cantin.png",
       description: "Web",
       commentaire: "ReactJs, html, css ",
-      adresseGithub : "",
+      adresseGithub : "https://github.com/malmont/portfolio",
       adresseWeb: ""
     },
   ]
