@@ -62,11 +62,11 @@ export default function Home() {
               </span>
             </h2>
             <p>
-      Fort de mon expérience dans le domaine depuis 15 ans en tant SysAdmin, j'ai entamé depuis 3 ans une
-       reconversion dans le domaine du développement d'application web et mobile.
-       Cette aventure à commencé  gràce un concours de circonstance lié à plusieurs problématiques que je rencontrait 
-      lors de mon précédent travail.
-      J'ai eu la révélation lors de la réalisation de ma premiere application que la programmation était devenue une vrai passion.
+      Fort de mon expérience dans le domaine depuis 15 ans en tant SysAdmin, 
+      j'ai entamé depuis 3 ans une reconversion dans le domaine du développement 
+      d'application web et mobile.
+      ayant commencé mon apprentissage en autodidacte, j'ai pris la décision de passer un 
+      bachelor développement web et mobile  pour un rééquilibrage de la pratique et la théorie.
             </p>
             <div className="hero_btn  d_flex">
             <animated.div style={animation1}>
