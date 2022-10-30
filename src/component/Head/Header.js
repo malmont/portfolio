@@ -21,23 +21,18 @@ export default function Header() {
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
               {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
               <li>
-                <a href='#home'>home</a>
+                <a href='#home'>Présentation</a>
               </li>
               <li>
-                <a href='#features'>features</a>
+                <a href='#features'>Compétences</a>
               </li>
               <li>
                 <a href='#portfolio'>portfolio</a>
               </li>
               <li>
-                <a href='#resume'>resume</a>
+                <a href='#resume'>Formation</a>
               </li>
-              <li>
-                <a href='#clients'>clients</a>
-              </li>
-              <li>
-                <a href='#blog'>blog</a>
-              </li>
+            
               <li>
                 <a href='#contact'>contact</a>
               </li>

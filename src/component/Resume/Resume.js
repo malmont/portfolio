@@ -16,7 +16,7 @@ export default function Resume() {
             <div className='left'>
               <div className='heading'>
                 <h4>2007-2010</h4>
-                <h1>Education Quality</h1>
+                <h1>Formation</h1>
               </div>
 
               <div className='content'>
@@ -30,7 +30,7 @@ export default function Resume() {
             <div className='left'>
               <div className='heading'>
                 <h4>2007-2010</h4>
-                <h1>Job Experience</h1>
+                <h1>Expérience professionnelle</h1>
               </div>
 
               <div className='content'>

@@ -6,11 +6,12 @@ export default function Card(props) {
         <img src={props.image} alt="" />
         <h2>{props.title}</h2>
         <p>
-        <span>COMPETENCES :</span>  
+        <span>COMPÉTENCES :</span>  
         <br />
         {props.desc}
         </p>
         <p>
+          <br />
         <span>OUTILS :</span>  
         <br />
         {props.outils}
@@ -29,16 +30,13 @@ span{
 div{
   height:400px;
 }
-@media (max-width: 1210px) {
+@media (max-width: 1250px) {
   div{
   height:450px;
 }
 }
-@media (max-width: 1210px) {
-  div{
-  height:400px;
-}
-}
+
+
 @media (max-width: 820px) {
   div{
   height:450px;

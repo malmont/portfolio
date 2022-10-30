@@ -4,6 +4,7 @@ import hero from ".//pic/hero.png";
 import react from ".//pic/react.png";
 import flutter from ".//pic/flutter.png";
 import symfony from ".//pic/symfony.png";
+import xamarin from ".//pic/xamarin.png";
 import { useSpring,animated } from 'react-spring';
 
 export default function Home() {
@@ -62,21 +63,17 @@ export default function Home() {
               </span>
             </h2>
             <p>
-      Fort de mon expérience dans le domaine depuis 15 ans en tant SysAdmin, 
-      j'ai entamé depuis 3 ans une reconversion dans le domaine du développement 
-      d'application web et mobile.
-      ayant commencé mon apprentissage en autodidacte, j'ai pris la décision de passer un 
-      bachelor développement web et mobile  pour un rééquilibrage de la pratique et la théorie.
+            Je suis un passionné des nouvelles technologies avec plus de 15 ans 
+            d'expérience dans le domaine, j'ai un profil autodidacte & me suis
+             reconverti dans le développement web et mobile il y a 3 ans.
             </p>
             <div className="hero_btn  d_flex">
             <animated.div style={animation1}>
               <div className="col_1">
                 <h4>Find me</h4>
                 <div className="button">
-                  <button className="btn_shadow">
-                    <i className="fab fa-instagram"></i>
-                  </button>
-                  <button className="btn_shadow">
+            
+                  <button className="btn_shadow ">
                     <i className="fab fa-facebook-f"></i>
                   </button>
                   <button className="btn_shadow">
@@ -87,7 +84,7 @@ export default function Home() {
               </animated.div>
               <animated.div style={animation1}>
               <div className="col_1">
-                <h4> Compétence</h4>
+                <h4> Compétences principales</h4>
 
                 <button className="btn_shadow">
                   <img src={react} alt="" />
@@ -97,6 +94,9 @@ export default function Home() {
                 </button>
                 <button className="btn_shadow">
                   <img src={symfony} alt="" />
+                </button>
+                <button className="btn_shadow">
+                  <img src={xamarin} alt="" />
                 </button>
               </div>
               </animated.div>
@@ -160,6 +160,7 @@ const Wrapper = styled.div`
 
   .hero_btn button {
     margin-right: 30px;
+    margin-bottom:10px;
   }
   .hero_btn i {
     font-size: 30px;

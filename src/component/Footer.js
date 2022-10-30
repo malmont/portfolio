@@ -11,7 +11,7 @@ const Footer = () => {
           <div className='img'>
             <img src={logo1} alt='' />
           </div>
-          <p>© 2022. React js Michel Almont</p>
+          <p>© 2022. site réalisé avec React-js Michel Almont</p>
         </div>
       </footer>
     </>

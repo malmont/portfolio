@@ -16,7 +16,7 @@ export default function Portfolio() {
   return (
     <Wrapper>
       <Carousel   useKeyboardArrows  showArrows={false} showThumbs={false}>
-      <section  className="portfolio top">
+      <section  className="portfolio top" id="portfolio">
         <div className="container">
           <div className="heading text-center">
             <h4>VISITEZ MON PORTFOLIO</h4>

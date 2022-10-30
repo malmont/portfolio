@@ -82,11 +82,11 @@ export default function Contact() {
                   <img src={contact1} alt="" />
                 </div>
                 <div className="details">
-                  <h1>Almont michel</h1>
-                  <p>Développeur fullStack</p>
-                  <p>Je suis disponible pour un recrutement immédiat.</p> <br />
+                  <h1>Michel ALMONT</h1>
+                  <p>Développeur FullStack</p>
+                  <p>Je suis disponible pour un recrutement ou une mission freelance immédiatement.</p> <br />
                   <p>tel: (786) 628-7926</p>
-                  <p>Email: amichel.almont@gmail.com</p> <br />
+                  <p>Email: michel.almont@gmail.com</p> <br />
                   <span>Contactez moi</span>
                   <div className="button f_flex">
                     <button className="btn_shadow">

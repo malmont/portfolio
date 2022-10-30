@@ -15,7 +15,7 @@ const Portfolio_data1 = [
       id: 2,
       category: "Easyprice",
       totalLike: "280",
-      title: "Gstion de budget",
+      title: "Gestion de budget",
       image: "./image/easyprice.png",
       description: "Mobile",
       commentaire: "xamarinforms, exchangeApi",
