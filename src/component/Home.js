@@ -52,7 +52,7 @@ export default function Home() {
               {" "}
               <span>
                 <Typewriter
-                  words={["Dévellopeur mobile ", "dévellopeur full-stack"]}
+                  words={["Développeur mobile ", "Développeur Full-stack"]}
                   loop={5}
                   cursor
                   cursorStyle="|"
