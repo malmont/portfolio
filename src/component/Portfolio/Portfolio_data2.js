@@ -1,4 +1,4 @@
-const Portfolio_data1 = [
+const Portfolio_data2 = [
    
     {
       id: 1,
@@ -34,4 +34,4 @@ const Portfolio_data1 = [
       adresseWeb: "https://malmont.github.io/EASYDEVELOPMENT/"
     },
   ]
-  export default Portfolio_data1
+  export default Portfolio_data2
