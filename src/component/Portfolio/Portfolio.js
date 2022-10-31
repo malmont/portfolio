@@ -57,6 +57,8 @@ export default function Portfolio() {
                     title={value.title}
                     description ={value.description}
                     commentaire = {value.commentaire}
+                    adresseGithub= {value.adresseGithub}
+                    adresseWeb = {value.adresseWeb}
                   />
                 );
               })}
@@ -80,6 +82,8 @@ export default function Portfolio() {
                     title={value.title}
                     description ={value.description}
                     commentaire = {value.commentaire}
+                    adresseGithub= {value.adresseGithub}
+                    adresseWeb = {value.adresseWeb}
                   />
                 );
               })}
@@ -103,6 +107,8 @@ export default function Portfolio() {
                     title={value.title}
                     description ={value.description}
                     commentaire = {value.commentaire}
+                    adresseGithub= {value.adresseGithub}
+                    adresseWeb = {value.adresseWeb}
                   />
                 );
               })}
