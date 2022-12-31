@@ -12,14 +12,14 @@ const Portfolio_data = [
     },
     {
       id: 2,
-      category: "Easymakemoney",
+      category: "FlutterApi App de démo",
       totalLike: "750",
-      title: "Gestionnaire de projet",
-      image: "./image/easymakemoney.png",
+      title: "Gestionnaire de tâches et de user",
+      image: "./image/flutterapi.png",
       description: "Mobile ",
-      commentaire: "Xamarinforms, Firebase, Google Place Api",
-      adresseGithub : "https://easymakemoney.fr/",
-      adresseWeb: "https://easymakemoney.fr/"
+      commentaire: "Flutter, Mysql, Symfony, authentification JWT,platfom Api, Getx",
+      adresseGithub : "https://github.com/NOA-FASHION/flutter_api",
+      adresseWeb: "https://github.com/NOA-FASHION/api_flutter_backend"
       
     },
     {

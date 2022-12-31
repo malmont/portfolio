@@ -13,14 +13,14 @@ const Portfolio_data3 = [
     },
     {
       id: 2,
-      category: "easydrop",
-      totalLike: "280",
-      title: "Design for tecnology & services",
-      image: "./image/easydrop.png",
-      description: "mobile",
-      commentaire: "Dart, flutter,",
-      adresseGithub : "https://github.com/NOA-FASHION/easydrop",
-      adresseWeb: "https://easydrops.fr/"
+      category: "Easymakemoney",
+      totalLike: "750",
+      title: "Gestionnaire de projet",
+      image: "./image/easymakemoney.png",
+      description: "Mobile ",
+      commentaire: "Xamarinforms, Firebase, Google Place Api",
+      adresseGithub : "https://easymakemoney.fr/",
+      adresseWeb: "https://easymakemoney.fr/"
     },
     {
       id: 3,
