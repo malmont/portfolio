@@ -72,13 +72,18 @@ export default function Home() {
               <div className="col_1">
                 <h4>Find me</h4>
                 <div className="button">
-            
-                  <button className="btn_shadow ">
+            {/* <a href="https://www.facebook.com/profile.php?id=100063007981701">
+            <button className="btn_shadow ">
                     <i className="fab fa-facebook-f"></i>
                   </button>
-                  <button className="btn_shadow">
+              
+            </a> */}
+            <a href="https://www.linkedin.com/in/michel-almont-909372216/">
+            <button className="btn_shadow">
                     <i className="fab fa-linkedin-in"></i>
                   </button>
+            </a>
+                
                 </div>
               </div>
               </animated.div>

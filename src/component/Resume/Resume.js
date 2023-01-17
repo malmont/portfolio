@@ -15,28 +15,28 @@ export default function Resume() {
           <div className='content-section mtop d_flex'>
             <div className='left'>
               <div className='heading'>
-                <h4>2007-2010</h4>
+                <h4>2001-2023</h4>
                 <h1>Formation</h1>
               </div>
 
               <div className='content'>
                 {ResumeApi.map((val, id) => {
                   if (val.category === "education") {
-                    return <Card key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
+                    return <Card key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} desc2={val.desc2} />
                   }
                 })}
               </div>
             </div>
             <div className='left'>
               <div className='heading'>
-                <h4>2007-2010</h4>
+                <h4>2001-2023</h4>
                 <h1>Expérience professionnelle</h1>
               </div>
 
               <div className='content'>
                 {ResumeApi.map((val, index) => {
                   if (val.category === "experience") {
-                    return <Card key={index} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
+                    return <Card key={index} title={val.title} year={val.year} rate={val.rate} desc={val.desc}  desc2={val.desc2} />
                   }
                 })}
               </div>

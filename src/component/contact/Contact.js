@@ -85,19 +85,21 @@ export default function Contact() {
                   <h1>Michel ALMONT</h1>
                   <p>Développeur FullStack</p>
                   <p>Je suis disponible pour un recrutement ou une mission freelance immédiatement.</p> <br />
-                  <p>tel: (786) 628-7926</p>
+                  <p>tel: +1 (302) 364-0394</p>
                   <p>Email: michel.almont@gmail.com</p> <br />
                   <span>Contactez moi</span>
                   <div className="button f_flex">
-                    <button className="btn_shadow">
-                      <i className="fab fa-facebook-f"></i>
+                  <a href="https://www.linkedin.com/in/michel-almont-909372216/">
+                  <button className="btn_shadow">
+                      <i className="fab fa-linkedin-in"></i>
                     </button>
-                    <button className="btn_shadow">
-                      <i className="fab fa-instagram"></i>
-                    </button>
+                    </a>
+                    <a href="https://twitter.com/MichelAlmont">
                     <button className="btn_shadow">
                       <i className="fab fa-twitter"></i>
                     </button>
+                    </a>
+               
                   </div>
                 </div>
               </div>

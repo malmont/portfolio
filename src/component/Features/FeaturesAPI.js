@@ -25,7 +25,7 @@ const data = [
       image: "https://www.icone-png.com/png/32/31994.png ",
       title: "Développement MOBILE",
       desc: "Développement d'application mobile cross-plateforme.",
-      outils: "Flutter, Xamarinforms"
+      outils: "Flutter, Xamarinforms, SwiftUI, Kotlin"
     },
     {
       id: 5,

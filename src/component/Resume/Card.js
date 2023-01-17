@@ -8,8 +8,11 @@ export default function Card(props) {
                 <h2>{props.title}</h2>
                 <span>{props.year}</span>
             </div>
+            
            
         </div>
+        <p>{props.rate}</p>
+        <p>{props.desc2}</p>
         <p>{props.desc}</p>
         </div>  
     </Wrapper>
