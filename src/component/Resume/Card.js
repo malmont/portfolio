@@ -6,7 +6,7 @@ export default function Card(props) {
         <div className="title_content d-flex">
             <div className="title">
                 <h2>{props.title}</h2>
-                <span>{props.year}</span>
+                <h5>{props.year}</h5>
             </div>
             
            
