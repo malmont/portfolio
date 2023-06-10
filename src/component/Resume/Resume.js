@@ -27,7 +27,7 @@ export default function Resume() {
                 })}
               </div>
             </div>
-            <div className='left'>
+            <div className='right'>
               <div className='heading'>
                 <h4>2001-2023</h4>
                 <h1>Expérience professionnelle</h1>
@@ -98,12 +98,25 @@ const Wrapper = styled.div`
 .Resume .left {
   position: relative;
 }
+.Resume .right {
+  position: relative;
+}
 .Resume .left::after {
   content: "";
   position: absolute;
-  top: 16%;
+  top: 10%;
   left: 0;
-  height: 118vh;
+  height: 92vh;
+  width: 5px;
+  background: #04989e;
+  z-index: -2;
+}
+.Resume .right::after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 0;
+  height: 189vh;
   width: 5px;
   background: #04989e;
   z-index: -2;
