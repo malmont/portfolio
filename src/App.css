@@ -124,8 +124,14 @@ footer p {
   }
   .left,
   .right {
-    width: 100%;
+    width: 70%;
   }
+}
+@media (max-width: 830px) {
+  .grid {
+    grid-template-columns: repeat(1, 2fr);
+  }
+ 
 }
 
 @media (max-width: 700px) {
@@ -135,6 +141,9 @@ footer p {
   .left,
   .right {
     width: 100%;
+  }
+  .heading h1 {
+    font-size: 40px;
   }
 }
 

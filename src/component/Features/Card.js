@@ -44,7 +44,7 @@ div{
 }
 @media (max-width: 691px) {
   div{
-  height:400px;
+  height:420px;
 }
 }
 `;

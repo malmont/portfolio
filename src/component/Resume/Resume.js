@@ -104,7 +104,7 @@ const Wrapper = styled.div`
 .Resume .left::after {
   content: "";
   position: absolute;
-  top: 10%;
+  top: 11%;
   left: 0;
   height: 92vh;
   width: 5px;
@@ -114,7 +114,7 @@ const Wrapper = styled.div`
 .Resume .right::after {
   content: "";
   position: absolute;
-  top: 10%;
+  top: 11%;
   left: 0;
   height: 189vh;
   width: 5px;
@@ -146,13 +146,22 @@ const Wrapper = styled.div`
 .Resume .box:hover.box:before {
   background: #04989e;
 }
-@media (max-width: 768px) {
+@media (max-width: 830px) {
   .Resume .d_flex {
     flex-direction: column;
   }
   .Resume .left::after {
-    top: 14%;
-    height: 105vh;
+    visibility: hidden;
   }
+
+  .Resume .right::after {
+    visibility: hidden;
+}
+.Resume .box::before {
+  visibility: hidden;
+}
+.Resume .box::after {
+  visibility: hidden;
+}
 }
 `;

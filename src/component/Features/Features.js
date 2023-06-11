@@ -55,4 +55,17 @@ const Wrapper = styled.div`
   color: white;
   opacity: 1;
 }
+
+@media (max-width: 830px) {
+  
+  .content{
+    width:75%;
+  }
+}
+@media (max-width: 700px) {
+  
+  .content{
+    width:100%;
+  }
+}
 `;

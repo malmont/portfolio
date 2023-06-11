@@ -220,14 +220,15 @@ const Wrapper = styled.div`
   .Contact .right button i {
     margin-left: 10px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 830px) {
     .Contact .d_flex {
       flex-direction: column;
     }
     .Contact .left,
     .Contact .right {
-      width: 100%;
+      width: 90%;
       margin-top: 50px;
     }
+    
   }
 `;

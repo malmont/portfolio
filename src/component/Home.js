@@ -197,29 +197,45 @@ const Wrapper = styled.div`
     width:510px;
     border-radius:10px;
   }
+
+
+
+@media (max-width: 820px) {
+
+   .hero .right_img  img{
+     width:100%;
+     right:90%;
+   }
+   .hero .right_img {
+    width: 30%;
+    height: 30vh;
+    
+  }
+   .hero .f_flex {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+   
+   }
+
   @media (max-width: 768px) {
   .hero .right,
   .hero .left {
     width: 100%;
     margin-left: 20px;
- 
   }
-
-  .hero .f_flex {
-    flex-direction: column;
-    flex-direction: column-reverse;
-  }
+  
   .hero .right_img {
     width: 100%;
-    height: 54vh;
+    height: 50vh;
   }
+  
   .hero h2 {
     font-size: 30px;
   }
   .hero h1 {
     font-size: 36px;
-
   }
-}
 
+}
 `;

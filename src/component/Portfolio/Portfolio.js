@@ -262,7 +262,14 @@ body.active-modal {
 }
    /*------------popup--------*/
 
-   @media (max-width: 768px) {
+   @media (max-width: 830px) {
+  
+  .content{
+    width:75%;
+  }
+}
+
+   @media (max-width: 700px) {
   .modal,
   .overlay {
     overflow: scroll;
@@ -277,6 +284,9 @@ body.active-modal {
   .modal .right,
   .modal .left {
     padding: 0;
+  }
+  .content{
+    width:100%;
   }
 }
 `;
