@@ -1,6 +1,6 @@
 const ResumeApi = [
-  {
-    id: 12,
+ {
+    id: 11,
     category: "experience",
     year: "Mission développement mobile Delepine Rachel (2023) ",
     title: "Développeur web et mobile",
@@ -8,19 +8,11 @@ const ResumeApi = [
     desc2:"",
     rate: "",
   },{
-    id: 11,
-    category: "experience",
-    year: "Mission développement mobile Delepine Rachel (2023) ",
-    title: "Développeur web et mobile",
-    desc: "Rattaché au responsable technique la mission consiste à développer une application innovante pour la gestion des candidats pour une agence d'intérim spécialisé dans la santé.",
-    desc2:"",
-    rate: "",
-  },{
     id: 10,
     category: "experience",
     year: "Consultant .NET - Xamarin RANSTAD GROUP INC (2023) ",
     title: "Développeur web et mobile",
-    desc: "Rattaché au responsable technique la mission consiste à développer une application innovante pour la gestion des candidats pour une agence d'intérim spécialisé dans la santé.",
+    desc: "Développement et évolution d'une application mobile pour la gestion de la réception des marchandises pour la société pharmaceutique Mckesson.",
     desc2:"",
     rate: "",
   },{
