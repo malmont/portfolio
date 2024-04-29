@@ -20,7 +20,7 @@ const Portfolio_data3 = [
       description: "Mobile ",
       commentaire: "Xamarinforms, Firebase, Google Place Api",
       adresseGithub : "https://easymakemoney.fr/",
-      adresseWeb: "https://easymakemoney.fr/"
+      adresseWeb: "https://noa-fashion.github.io/EASYMAKEMONAY_PRESENTATION/"
     },
     {
       id: 3,

@@ -9,7 +9,7 @@ const Portfolio_data2 = [
       description: "Mobile",
       commentaire: "Dart, Flutter",
       adresseGithub : "https://github.com/NOA-FASHION/easyEconomy",
-      adresseWeb: "https://easyeconomy.fr/"
+      adresseWeb: "http://easyeconomy.tech/"
     },
     {
       id: 2,

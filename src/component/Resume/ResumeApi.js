@@ -2,9 +2,9 @@ const ResumeApi = [
  {
     id: 11,
     category: "experience",
-    year: "Mission développement mobile Delepine Rachel (2023) ",
+    year: "Consultant full stack LBM Conseil ",
     title: "Développeur web et mobile",
-    desc: "Développement d'une application mobile pour la gestion des missions et des interventions pour les métiers d'infirmiers libérals.",
+    desc: "En charge de développer et de faire évoluer les sites web, les applications web et les interfaces mobiles de Croix Bleue assurance pour créer une expérience utilisateur unique et maximiser l’atteinte des objectifs d’affaire de l’entreprise",
     desc2:"",
     rate: "",
   },{

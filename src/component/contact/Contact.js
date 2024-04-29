@@ -85,7 +85,7 @@ export default function Contact() {
                   <h1>Michel ALMONT</h1>
                   <p>Développeur FullStack</p>
                   <p>Je suis disponible pour un recrutement ou une mission freelance immédiatement.</p> <br />
-                  <p>tel: +1 (302) 364-0394</p>
+                  <p>tel: +1 (438) 453-1798</p>
                   <p>Email: michel.almont@gmail.com</p> <br />
                   <span>Contactez moi</span>
                   <div className="button f_flex">
