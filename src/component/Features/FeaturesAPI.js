@@ -25,7 +25,7 @@ const data = [
       image: "https://www.icone-png.com/png/32/31994.png ",
       title: "Développement MOBILE",
       desc: "Développement d'application mobile cross-plateforme.",
-      outils: "Flutter, Xamarinforms,MVVM, Bloc Manager, C#, Dart, architecture Clean"
+      outils: "Flutter, Xamarinforms,.NET MAUI,MVVM, Bloc Manager, C#, Dart, architecture Clean"
     },
     {
       id: 5,
