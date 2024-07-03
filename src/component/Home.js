@@ -70,19 +70,20 @@ export default function Home() {
             <div className="hero_btn  d_flex">
             <animated.div style={animation1}>
               <div className="col_1">
-                <h4>Find me</h4>
+                <h4>Find me</h4> 
                 <div className="button">
-            {/* <a href="https://www.facebook.com/profile.php?id=100063007981701">
-            <button className="btn_shadow ">
-                    <i className="fab fa-facebook-f"></i>
-                  </button>
-              
-            </a> */}
+         
             <a href="https://www.linkedin.com/in/michel-almont-909372216/">
             <button className="btn_shadow">
                     <i className="fab fa-linkedin-in"></i>
                   </button>
             </a>
+            <a href="   https://drive.google.com/file/d/1iqbJ3_ZP889E8Q8KhxCElLYnf79zDJV0/view?usp=sharing">
+            <button className="btn_shadow">
+                    <i >CV</i>
+                  </button>
+            </a>
+         
                 
                 </div>
               </div>
