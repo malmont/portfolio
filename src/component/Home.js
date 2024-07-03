@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Typewriter } from "react-simple-typewriter";
-import hero from ".//pic/hero.png";
+import hero from ".//pic/logo2.png";
 import react from ".//pic/react.png";
 import flutter from ".//pic/flutter.png";
 import symfony from ".//pic/symfony.png";

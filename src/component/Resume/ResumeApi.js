@@ -61,7 +61,7 @@ const ResumeApi = [
   {
     id: 4,
     category: "education",
-    year: "STUDI (2022-2023)",
+    year: "STUDI (2022-2024)",
     title: "BACHELOR Fullstack OPTION Python ",
     desc: "Equivalence canadienne : BACCALAUREAT",
     desc2:"Certifications professionnelles RNCP36146",

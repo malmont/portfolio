@@ -2,14 +2,15 @@ const Portfolio_data2 = [
    
     {
       id: 1,
-      category: "EasyEconomy",
-      totalLike: "360",
-      title: "Application de gestion",
-      image: "./image/Easyeconomy.png",
+      category: "Easytodo",
+      totalLike: "600",
+      title: "La ToDoList intelligente",
+      image: "./image/easytodo.png",
       description: "Mobile",
-      commentaire: "Dart, Flutter",
-      adresseGithub : "https://github.com/NOA-FASHION/easyEconomy",
-      adresseWeb: "http://easyeconomy.tech/"
+      commentaire: "Dart, Flutter, github, Figma",
+      adresseGithub:
+        "https://github.com/NOA-FASHION/IcanDoIt/tree/master/icandoit",
+      adresseWeb: "https://noa-fashion.github.io/easytodo/",
     },
     {
       id: 2,
