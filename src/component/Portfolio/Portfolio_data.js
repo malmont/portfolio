@@ -12,14 +12,14 @@ const Portfolio_data = [
   },
   {
     id: 2,
-    category: "SiteEcommerceJeuxOlympique",
+    category: "Easymakemoney",
     totalLike: "750",
-    title: "Site Ecommerce",
-    image: "./image/olympique.png",
-    description: "Web ",
-    commentaire: "Django, html/css, Python, React Js, Java Script,MVVM",
-    adresseGithub: "https://github.com/malmont/ecommerceolympique",
-    adresseWeb: "https://malmont.github.io/ecommerceolympique/",
+    title: "Gestionnaire de projet",
+    image: "./image/easymakemoney.png",
+    description: "Mobile ",
+    commentaire: "Xamarinforms, Firebase, Google Place Api",
+    adresseGithub : "https://github.com/malmont/neweasymakemoney",
+    adresseWeb: "https://noa-fashion.github.io/EASYMAKEMONAY_PRESENTATION/"
   },
   {
     id: 3,

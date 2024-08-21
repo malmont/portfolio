@@ -24,14 +24,14 @@ const Portfolio_data1 = [
     },
     {
       id: 3,
-      category: "charle-cantin",
-      totalLike: "690",
-      title: "Site vitrine",
-      image: "./image/charle-cantin.png",
-      description: "Web",
-      commentaire: "ReacJs, html:css, Bootstrap,strapi",
-      adresseGithub : "https://github.com/malmont/front-charles-cantin",
-      adresseWeb: "https://malmont.github.io/front-charles-cantin/"
+      category: "SiteEcommerceJeuxOlympique",
+      totalLike: "750",
+      title: "Site Ecommerce",
+      image: "./image/olympique.png",
+      description: "Web ",
+      commentaire: "Django, html/css, Python, React Js, Java Script,MVVM",
+      adresseGithub: "https://github.com/malmont/ecommerceolympique",
+      adresseWeb: "https://malmont.github.io/ecommerceolympique/",
     },
   ]
   export default Portfolio_data1
