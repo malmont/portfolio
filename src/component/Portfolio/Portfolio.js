@@ -76,6 +76,7 @@ export default function Portfolio() {
                 return (
                   <Card
                     key={index}
+                    index={index} 
                     image={value.image}
                     category={value.category}
                     totalLike={value.totalLike}

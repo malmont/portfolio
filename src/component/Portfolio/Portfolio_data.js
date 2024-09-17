@@ -1,14 +1,14 @@
 const Portfolio_data = [
   {
     id: 1,
-    category: "EasyEconomy",
+    category: "POSFlutter",
     totalLike: "360",
-    title: "Application de gestion",
-    image: "./image/Easyeconomy.png",
-    description: "Mobile",
-    commentaire: "Dart, Flutter",
-    adresseGithub : "https://github.com/NOA-FASHION/easyEconomyNew",
-    adresseWeb: "https://malmont.github.io/easyeconomyWeb/"
+    title: "Application de point de vente",
+    image: "./image/FlutterPOS.png",
+    description: "Desktop",
+    commentaire: "Dart, Flutter, Bloc, Get_IT, Dio,Symfony",
+    adresseGithub : "https://github.com/malmont/posflutter",
+    adresseWeb: "https://malmont.github.io/posflutterweb/"
   },
   {
     id: 2,
@@ -17,20 +17,20 @@ const Portfolio_data = [
     title: "Gestionnaire de projet",
     image: "./image/easymakemoney.png",
     description: "Mobile ",
-    commentaire: "Xamarinforms, Firebase, Google Place Api",
+    commentaire: ".Net MAUI, Symfony,MVVM",
     adresseGithub : "https://github.com/malmont/neweasymakemoney",
     adresseWeb: "https://noa-fashion.github.io/EASYMAKEMONAY_PRESENTATION/"
   },
   {
     id: 3,
-    category: "SiteEcommerce",
+    category: "SiteEcommerceJeuxOlympique",
     totalLike: "750",
     title: "Site Ecommerce",
-    image: "./image/ecommercePhp.png",
+    image: "./image/olympique.png",
     description: "Web ",
-    commentaire: "Symfony, html/css, Postgress, Php",
-    adresseGithub: "https://github.com/malmont/EcommerceSymfony",
-    adresseWeb: "https://backend-strapi.online/jeesign/",
+    commentaire: "Django, html/css, Python, React Js, Java Script,MVVM",
+    adresseGithub: "https://github.com/malmont/ecommerceolympique",
+    adresseWeb: "https://malmont.github.io/ecommerceolympique/",
   },
 ];
 export default Portfolio_data;

@@ -25,14 +25,14 @@ const Portfolio_data2 = [
     },
     {
       id: 3,
-      category: "Easydevelopment",
-      totalLike: "690",
-      title: "Site vitrine",
-      image: "./image/easydevelopment.png",
-      description: "Web",
-      commentaire: "Html, css, bootstrap",
-      adresseGithub : "https://github.com/malmont/EASYDEVELOPMENT",
-      adresseWeb: "https://malmont.github.io/EASYDEVELOPMENT/"
+      category: "SiteEcommerce",
+      totalLike: "750",
+      title: "Site Ecommerce",
+      image: "./image/ecommercePhp.png",
+      description: "Web ",
+      commentaire: "Symfony, html/css, Postgress, Php",
+      adresseGithub: "https://github.com/malmont/EcommerceSymfony",
+      adresseWeb: "https://backend-strapi.online/jeesign/",
     },
   ]
   export default Portfolio_data2

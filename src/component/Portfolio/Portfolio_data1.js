@@ -24,14 +24,15 @@ const Portfolio_data1 = [
     },
     {
       id: 3,
-      category: "SiteEcommerceJeuxOlympique",
-      totalLike: "750",
-      title: "Site Ecommerce",
-      image: "./image/olympique.png",
-      description: "Web ",
-      commentaire: "Django, html/css, Python, React Js, Java Script,MVVM",
-      adresseGithub: "https://github.com/malmont/ecommerceolympique",
-      adresseWeb: "https://malmont.github.io/ecommerceolympique/",
+      category: "EasyEconomy",
+      totalLike: "360",
+      title: "Application de gestion",
+      image: "./image/Easyeconomy.png",
+      description: "Mobile",
+      commentaire: "Dart, Flutter",
+      adresseGithub : "https://github.com/NOA-FASHION/easyEconomyNew",
+      adresseWeb: "https://malmont.github.io/easyeconomyWeb/"
     },
+  
   ]
   export default Portfolio_data1
